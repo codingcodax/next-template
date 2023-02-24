@@ -11,12 +11,13 @@ module.exports = {
       },
     },
   ],
+  $schema: "https://json.schemastore.org/eslintrc",
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ["@typescript-eslint"],
-  extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  plugins: ["@typescript-eslint", "tailwindcss"],
+  extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:tailwindcss/recommended"],
   rules: {
     "@typescript-eslint/consistent-type-imports": [
       "warn",
@@ -25,5 +26,14 @@ module.exports = {
         fixStyle: "inline-type-imports",
       },
     ],
+    "@next/next/no-html-link-for-pages": "off",
+    "react/jsx-key": "off",
+    "react/react-in-jsx-scope": "off",
+    "tailwindcss/no-custom-classname": "off",
   },
+  settings: {
+    "tailwindcss": {
+      "callees": ["cn"]
+    }
+  }
 };
