@@ -10,8 +10,8 @@
     "start": "next start",
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit",
-    "format:write": "prettier --write --cache",
-    "format:check": "prettier --check --cache"
+    "format:write": "prettier --write . --cache",
+    "format:check": "prettier --check . --cache"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.5",
