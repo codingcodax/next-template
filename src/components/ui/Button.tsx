@@ -1,4 +1,5 @@
 import { tv, type VariantProps } from 'tailwind-variants';
+import { cn } from '~/utils';
 
 import ButtonOrLink, { type Props as ButtonOrLinkProps } from './ButtonOrLink';
 
@@ -7,8 +8,12 @@ const buttonStyles = tv({
   variants: {
     intent: {
       primary: 'bg-white text-black',
-      secondary:
-        'border-zinc-700 bg-transparent transition-colors hover:border-zinc-600 hover:bg-zinc-800',
+      secondary: cn(
+        'border-zinc-300 bg-transparent text-black transition-colors',
+        'dark:border-zinc-700 dark:text-white',
+        'hover:border-zinc-400 hover:bg-zinc-200',
+        'dark:hover:border-zinc-600 dark:hover:bg-zinc-800'
+      ),
     },
     size: {
       smal: 'px-3 h-7 text-xs',
