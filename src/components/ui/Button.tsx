@@ -31,8 +31,13 @@ type ButtonVariants = VariantProps<typeof buttonStyles>;
 
 interface Props extends ButtonOrLinkProps, ButtonVariants {}
 
-const Button = ({ intent, size, ...props }: Props) => {
-  return <ButtonOrLink className={buttonStyles({ intent, size })} {...props} />;
+const Button = ({ intent, size, className, ...props }: Props) => {
+  return (
+    <ButtonOrLink
+      className={buttonStyles({ intent, size, class: className })}
+      {...props}
+    />
+  );
 };
 
 export default Button;
