@@ -25,7 +25,12 @@ const MyApp: AppType<{ session: Session | null }> = ({
           --font-sans: ${fontSans.style.fontFamily};
         }
       `}</style>
-      <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+      <ThemeProvider
+        attribute='class'
+        defaultTheme='system'
+        disableTransitionOnChange
+        enableSystem
+      >
         <SessionProvider session={session}>
           <Layout>
             <Component {...pageProps} />
