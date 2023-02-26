@@ -1,9 +1,13 @@
+import { Link } from '~/components/ui';
+
 const Footer = () => {
   return (
     <footer>
       <p className='text-center'>
         Handcrafted with <span className='font-mono'>🤍</span> by{' '}
-        <a href='https://codingcodax.dev'>@codingcodax</a>
+        <Link isExternal href='https://codingcodax.dev/'>
+          @codingcodax
+        </Link>
       </p>
     </footer>
   );
