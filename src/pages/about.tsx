@@ -1,19 +1,15 @@
 import { type NextPage } from 'next';
-import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 import { Button, Link } from '~/components/ui';
 
 const About: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>About | Next.js Template</title>
-        <meta
-          name='description'
-          content='About page for Next.js template with T3 Stack and template inspired by Shadcn.'
-        />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <NextSeo
+        title='About'
+        description='About page for Next.js template with T3 Stack and template inspired by Shadcn.'
+        canonical='https://template.codingcodax.dev/about'
+      />
       <main>
         <h1 className='text-bold text-xl font-bold dark:text-white'>About</h1>
         <p>
