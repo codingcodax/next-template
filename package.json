@@ -32,6 +32,7 @@
     "superjson": "1.9.1",
     "tailwind-merge": "^1.10.0",
     "tailwind-variants": "^0.0.30",
+    "tailwindcss-radix": "^2.7.0",
     "zod": "^3.20.2"
   },
   "devDependencies": {
