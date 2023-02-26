@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { cn } from '~/utils';
 
+import Logo from './Logo';
 import ToggleThemeButton from './ToggleThemeButton';
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
 
   return (
     <header className='flex h-10 items-center justify-between'>
-      <Link href='/'>Logo</Link>
+      <Logo />
       <nav>
         <ul className='flex space-x-8'>
           <li>
