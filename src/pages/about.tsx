@@ -100,7 +100,7 @@ const About: NextPage = () => {
             </ul>
           </div>
         </div>
-        <Button href='/' className='mt-4' intent='secondary'>
+        <Button href='/' className='mt-4'>
           Go back
         </Button>
       </main>

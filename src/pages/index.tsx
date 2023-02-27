@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         , accessible, with SEO, and the facility to create your component
         library.
       </p>
-      <Button href='/about' className='mt-4' intent='secondary'>
+      <Button href='/about' className='mt-4'>
         Learn more
       </Button>
     </main>
