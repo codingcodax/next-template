@@ -7,12 +7,13 @@ const buttonStyles = tv({
   base: 'flex w-fit items-center justify-center border font-medium',
   variants: {
     intent: {
-      primary: 'bg-white text-black',
-      secondary: cn(
+      primary: cn(
         'border-zinc-300 bg-transparent text-black transition-colors',
         'dark:border-zinc-700 dark:text-white',
         'hover:border-zinc-400 hover:bg-zinc-200',
-        'dark:hover:border-zinc-600 dark:hover:bg-zinc-800'
+        'dark:hover:border-zinc-600 dark:hover:bg-zinc-800',
+        'outline-2 outline-offset-1 outline-current',
+        'focus:outline'
       ),
     },
     size: {
@@ -29,7 +30,7 @@ const buttonStyles = tv({
 
 type ButtonVariants = VariantProps<typeof buttonStyles>;
 
-interface Props extends ButtonOrLinkProps, ButtonVariants {}
+interface Props extends ButtonOrLinkProps, ButtonVariants { }
 
 const Button = ({ intent, size, className, ...props }: Props) => {
   return (
