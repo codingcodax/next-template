@@ -1,8 +1,15 @@
 import Link from 'next/link';
+import { cn } from '~/utils';
 
 const Logo = () => {
   return (
-    <Link href='/'>
+    <Link
+      href='/'
+      className={cn(
+        'outline-2 outline-offset-1 outline-current',
+        'focus:outline'
+      )}
+    >
       <svg
         role='img'
         viewBox='0 0 24 24'
