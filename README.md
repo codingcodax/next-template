@@ -33,7 +33,6 @@
 - Variants with [`tailwind-variants`](https://www.tailwind-variants.org/)
 - Automatic class sorting with [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 
-
 ### Techstack
 
 This app was built with the T3 Stack:

@@ -30,7 +30,7 @@ const buttonStyles = tv({
 
 type ButtonVariants = VariantProps<typeof buttonStyles>;
 
-interface Props extends ButtonOrLinkProps, ButtonVariants { }
+interface Props extends ButtonOrLinkProps, ButtonVariants {}
 
 const Button = ({ intent, size, className, ...props }: Props) => {
   return (
