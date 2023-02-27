@@ -44,6 +44,32 @@ This app was built with the T3 Stack:
 - [Prisma](https://prisma.io)
 - [NextAuth.js](https://next-auth.js.org)
 
+## Gallery
+
+### Desktop
+
+<details>
+  <summary>Dark</summary>
+  <img src='./.github/assets/desktop-preview-dark.png' width='600' />
+</details>
+
+<details>
+  <summary>Light</summary>
+  <img src='./.github/assets/desktop-preview-light.png' width='600' />
+</details>
+
+### Mobile
+
+<details>
+  <summary>Dark</summary>
+  <img src='./.github/assets/mobile-preview-dark.png' width='300' />
+</details>
+
+<details>
+  <summary>Light</summary>
+  <img src='./.github/assets/mobile-preview-light.png' width='300' />
+</details>
+
 ## License
 
 Licensed under the [MIT license](./LICENSE.md)
