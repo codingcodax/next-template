@@ -1,28 +1,50 @@
-# Create T3 App
+<p align='center'>
+  <a href='https://github.com/codingcodax/slug'>
+    <img src='./.github/assets/logo.png' width='80' height='80' />
+  </a>
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+  <h3 align='center'>Next.js Template</h3>
 
-## What's next? How do I make an app with this?
+  <p align='center'>
+    <samp>Simple template built with Tailwind Variants, Hero Icons and Radix UI.</samp>
+    <br />
+    <a href='https://github.com/codingcodax/next-template/generate' rel='noopener noreferrer' target='_blank'><strong>Try it out!</strong></a>
+    <br />
+    <br />
+    <a href='https://github.com/codingcodax/slug/next-template/'>Feature Request</a>
+    ·
+    <a href='https://github.com/codingcodax/next-template/issues/'>Bug Report</a>
+  </p>
+</p>
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Features
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- Tailwind CSS.
+- Tailwind CSS and Radix UI with [`tailwindcss-radix`](https://github.com/ecklf/tailwindcss-radix)
+- Dark mode with [`next-themes`](https://github.com/pacocoursey/next-themes)
+- Icons from [Heroicons](https://heroicons.com/)
+- Fonts with [`@next-font`](https://nextjs.org/docs/api-reference/next/font)
+- Automatic import sorting with [`@ianvs/prettier-plugin-sort-imports`](https://github.com/IanVS/prettier-plugin-sort-imports)
+
+## Tailwind CSS Features
+
+- Class merging with [`taiwind-merge`](https://github.com/dcastil/tailwind-merge)
+- Conditional classes with [`clsx`](https://github.com/lukeed/clsx)
+- Variants with [`tailwind-variants`](https://www.tailwind-variants.org/)
+- Automatic class sorting with [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+
+
+### Techstack
+
+This app was built with the T3 Stack:
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [Tailwind CSS](https://tailwindcss.com)
+- [TypeScript](https://typescriptlang.org)
+- [Prisma](https://prisma.io)
+- [NextAuth.js](https://next-auth.js.org)
 
-## Learn More
+## License
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Licensed under the [MIT license](./LICENSE.md)
