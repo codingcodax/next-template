@@ -15,6 +15,8 @@ const NavLink = ({ currentUrl, name, href }: Props) => {
         className={cn(
           'font-medium transition-colors',
           'hover:text-black dark:hover:text-white',
+          'outline-2 outline-offset-1 outline-current',
+          'focus:outline',
           currentUrl === href ? 'text-black dark:text-white' : ''
         )}
       >
