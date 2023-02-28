@@ -72,30 +72,7 @@ This app was built with the T3 Stack:
 
 ## Set up
 
-If you do not want some T3 stack function such as Prisma, tRPC or Next Auth follow these steps.
-
-### Prisma
-
-You have to remove:
-- `~/prisma` directory
-- `~/src/server/db.ts` file
-- `DATABASE_URL` from `.env` lines 3 to 6 and from `env.mjs` lines 8 and 41
-
-### tRPC
-
-You have to remove:
-- `~/src/pages/api/trpc` directory
-- `~/src/server/api` directory
-
-### Nexth Auth
-
-You have to remove:
-- `~/src/pages/api/auth` directory
-- `~/src/server/auth.ts` file
-- `NEXTAUTH_SECRET` from `.env` lines 7 to 12 and from `env.mjs` lines 10 to 13 and 43
-- `NEXTAUTH_URL` from `.env` line 13 and from `env.mjs` lines 14 to 20 and 44
-- `DISCORD_CLIENT_ID` from `.env` lines 14 to 16 and from `env.mjsj` lines 21, 22 and 45
-- `DISCORD_CLIENT_SECRET` from `.env` line 17 and from `env.mjs` lines 23 and 46
+To build the template you only have to copy `.env.example` to `.env` and update both files when you add/delete a new variable.
 
 ## License
 
